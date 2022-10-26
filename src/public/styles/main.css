@@ -1,0 +1,143 @@
+/* .index, */
+.toForm,
+/* .all, */
+.secret,
+.dog {
+  text-decoration: none;
+  color: #276df0;
+  margin-right: 30px;
+}
+
+.nav {
+  margin: 0 0 10px 100px;
+}
+
+.logo {
+  margin: 20px 40px -6px 0;
+}
+
+.pageWrap {
+  display: flex;
+  justify-content: center;
+  margin: 30px 100px;
+  border: 2px solid #276df0;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1,
+h3 {
+  color: #276df0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 100px;
+}
+
+h4 {
+  color: #7d7d7e;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #276df0;
+  border-radius: 40px;
+  padding: 20px;
+  width: 190px;
+  height: 190px;
+  margin-bottom: 30px;
+}
+
+.oneCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #276df0;
+  border-radius: 40px;
+  padding: 20px;
+  width: 190px;
+  height: 190px;
+  margin: 30px 100px;
+}
+
+.form {
+  margin: 30px 100px;
+}
+
+.title {
+  border: 2px solid #276df0;
+  border-radius: 5px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.text {
+  border: 2px solid #276df0;
+  border-radius: 5px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.formBtn {
+  border: 2px solid #276df0;
+  border-radius: 5px;
+  background-color: #276df0;
+  color: #ffffff;
+  height: 26px;
+  width: 100px;
+  /* cursor: pointer; */
+}
+
+.postsBtn {
+  border: 2px solid #276df0;
+  border-radius: 5px;
+  background-color: #276df0;
+  color: #fff;
+  height: 26px;
+  width: 100px;
+}
+
+.delete {
+  border: 2px solid #f32c2c;
+  border-radius: 5px;
+  background-color: #f32c2c;
+  color: #ffffff;
+  height: 26px;
+  width: 100px;
+}
+
+.dogBtn {
+  border: 2px solid #276df0;
+  border-radius: 5px;
+  background-color: #276df0;
+  color: #ffffff;
+  height: 32px;
+  width: 160px;
+  margin: 0 0 30px 100px;
+}
+
+.divDog img {
+  max-width: 500px;
+  max-height: 400px;
+  border-radius: 40px;
+  margin-left: 100px;
+}
+
+hr {
+  margin: 0 100px;
+}
