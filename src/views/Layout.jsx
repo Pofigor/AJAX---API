@@ -14,7 +14,7 @@ function Layout(props) {
 
       <body>
         <div className='nav'>
-        <img src="./img/dog.png" alt="logo" className='logo'/>
+        <a href="/form"><img src="./img/dog.png" alt="logo" className='logo'/></a> 
         {/* <a href="/" className='index'>На главную</a> */}
         <a href="/form" className='toForm'>AJAX</a>
         {/* <a href="/all" className='all'>Все посты</a> */}

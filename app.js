@@ -8,8 +8,6 @@ const express = require('express');
 
 const morgan = require('morgan');
 
-// const { sequelize } = require('./db/models');
-
 const { Task } = require('./db/models');
 
 const dbConnectionCheck = require('./db/dbConnectionCheck');
@@ -39,7 +37,7 @@ const Home = require('./src/views/Home');
 const Secret = require('./src/views/Secret');
 
 const formRoutes = require('./src/Routes/formRoutes');
-const postsRoutes = require('./src/Routes/postsRoutes');
+// const postsRoutes = require('./src/Routes/postsRoutes');
 const Dog = require('./src/views/Dog');
 
 app.get('/', (req, res) => {
@@ -68,7 +66,7 @@ app.delete('/delete', async (req, res) => {
 
 
 app.use('/', formRoutes);
-app.use('/', postsRoutes);
+// app.use('/', postsRoutes);
 
 const PORT = process.env.PORT || 9999;
 
