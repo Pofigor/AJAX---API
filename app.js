@@ -66,8 +66,8 @@ app.delete('/delete', async (req, res) => {
 app.use('/', formRoutes);
 app.use('/', postsRoutes);
 
-const PORT = process.env.PORT || 9999;
+// const PORT = process.env.PORT || 9999;
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 9999, () => {
   console.log('Server has been started on 3000 PORT!');
 });
