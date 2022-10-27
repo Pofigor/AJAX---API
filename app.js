@@ -35,10 +35,10 @@ app.use((req, res, next) => {
 const renderTemplate = require('./src/lib/renderTemplate');
 const Home = require('./src/views/Home');
 const Secret = require('./src/views/Secret');
+const Dog = require('./src/views/Dog');
 
 const formRoutes = require('./src/Routes/formRoutes');
-// const postsRoutes = require('./src/Routes/postsRoutes');
-const Dog = require('./src/views/Dog');
+const postsRoutes = require('./src/Routes/postsRoutes');
 
 app.get('/', (req, res) => {
   renderTemplate(Home, null, res);
@@ -63,10 +63,8 @@ app.delete('/delete', async (req, res) => {
   }
 })
 
-
-
 app.use('/', formRoutes);
-// app.use('/', postsRoutes);
+app.use('/', postsRoutes);
 
 const PORT = process.env.PORT || 9999;
 
